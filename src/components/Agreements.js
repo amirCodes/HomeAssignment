@@ -6,17 +6,10 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 
 export default function Agreements({ values, handleChange, nextStep, prevStep }) {
 
-
-
-    const Next = (e) => {
-        e.preventDefault();
-        console.log(values)
-        // postData();
-        nextStep();
-    }
+    // Here we will post to the user data using the the endpoint user 
     const postData = () => {
         fetch('https://5f79819fe402340016f93139.mockapi.io/api/user', {
-            method: 'POST', // or 'PUT'
+            method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -30,6 +23,14 @@ export default function Agreements({ values, handleChange, nextStep, prevStep })
                 console.error('Error:', error);
             });
     }
+
+    const Next = (e) => {
+        e.preventDefault();
+        // console.log(values)
+        postData();
+        nextStep();
+    }
+ 
     const Back = (e) => {
         e.preventDefault();
         prevStep();
