@@ -1,5 +1,6 @@
 import React from 'react'
 import '../style.scss';
+import Logo from './MoneyLionLogo';
 import Checkbox from '@material-ui/core/Checkbox';
 import FormLabel from '@material-ui/core/FormLabel';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
@@ -39,6 +40,7 @@ export default function Agreements({ values, handleChange, nextStep, prevStep })
 
     return (
         <div className="login-form">
+            <Logo />
             <h1>What's your date of birth</h1>
 
             <FormControlLabel

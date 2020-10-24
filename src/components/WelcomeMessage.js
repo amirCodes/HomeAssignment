@@ -1,5 +1,6 @@
 import React from 'react'
 import '../style.scss';
+import Logo from './MoneyLionLogo';
 export default function WelcomMessage({ values, handleChange,nextStep } ) {
    
     const Next= (e)=>{
@@ -9,6 +10,7 @@ export default function WelcomMessage({ values, handleChange,nextStep } ) {
     }
     return (
         <div className="login-form col-8">
+            <Logo />
             <h1>Say Hello to MoneyLion</h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

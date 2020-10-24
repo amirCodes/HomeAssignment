@@ -1,6 +1,7 @@
 import React from 'react'
 import '../style.scss';
 import TextField from '@material-ui/core/TextField';
+import Logo from './MoneyLionLogo';
 
 
 export default function PersonalDetails({ values, handleChange, nextStep, prevStep }) {
@@ -16,6 +17,7 @@ export default function PersonalDetails({ values, handleChange, nextStep, prevSt
 
     return (
         <div className="login-form">
+            <Logo />
             <h1>Create Your Account</h1>
             <TextField id="standard-secondary" className="field-light" label="First Name" color="primary"
                 fullWidth
