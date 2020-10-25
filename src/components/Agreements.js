@@ -41,7 +41,7 @@ export default function Agreements({ values, handleChange, nextStep, prevStep })
     return (
         <div className="login-form">
             <Logo />
-            <h1>What's your date of birth</h1>
+            <h1>One Last Step!</h1>
 
             <FormControlLabel
                 control={<Checkbox name="agreement1" onChange={handleChange('agreement1')} value={values.agreement1} />}
