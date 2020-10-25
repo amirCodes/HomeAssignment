@@ -7,7 +7,7 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 
 export default function Agreements({ values, handleChange, nextStep, prevStep }) {
 
-    // Here we will post to the user data using the the endpoint user 
+    // Here we will post the user data using the the endpoint user 
     const postData = () => {
         fetch('https://5f79819fe402340016f93139.mockapi.io/api/user', {
             method: 'POST',
@@ -18,10 +18,10 @@ export default function Agreements({ values, handleChange, nextStep, prevStep })
         })
             .then(response => response.json())
             .then(values => {
-                console.log('Success:', values);
+                console.log('Success:', values); // get siple success message in console for testing
             })
             .catch((error) => {
-                console.error('Error:', error);
+                console.error('Error:', error); // here will get the console.errr; and error message if post faild
             });
     }
 

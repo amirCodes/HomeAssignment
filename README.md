@@ -1,12 +1,45 @@
+# HomeAssignment
+![](firstPage.png)
 
-## Available Scripts
+Want to run this app on your local environment? here is the clone 
 
-In the project directory, you can run:
+## git clone https://github.com/amirCodes/HomeAssignment2.git
 
-### `npm start`
+
+cd to HomeAssignment2 
+
+## npm start
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+##    *******   Here another app/UI design for the assignment can check online  ********
+
+
+# HomeAssignment2
+
+![](firstPage2.png)
+
+
+Want to run this app on your local environment? here is the clone 
+
+## git clone https://github.com/amirCodes/HomeAssignment2.git
+
+
+cd to HomeAssignment2 
+
+## npm start
+
+demo URL
+## https://home-assignment2.vercel.app/
+
+getHub URL
+
+## https://github.com/amirCodes/HomeAssignment2
+
+
+
+
 
 
 You are required to create a single page application using ReactJs framework to onboard

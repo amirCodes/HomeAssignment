@@ -5,7 +5,7 @@ import Logo from '../logo.png'
 
 
 const image={
-    width: '60%',
+    width: '40%',
     height: '80px',
     nargin: '0px',
     padding: '0px'
